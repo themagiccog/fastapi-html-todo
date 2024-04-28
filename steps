@@ -1,0 +1,20 @@
+python3 -m venv env
+source env/bin/activate  
+
+pip install -r requirements.txt 
+
+uvicorn backend.main:app --reload
+
+#git
+
+
+git init
+git add .     
+git add .   
+git branch -M main
+git remote add origin git@github.com:themagiccog/fastapi-html-todo.git
+git push -u origin main
+
+
+git remote add fastapi-html-todo https://github.com/themagiccog/fastapi-html-todo
+git push fastapi-html-todo

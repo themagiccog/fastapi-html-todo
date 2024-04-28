@@ -1,0 +1,12 @@
+fastapi 
+uvicorn[standard]
+sqlalchemy 
+passlib[bcrypt] #if not bcrypt 4.0.1, we will have this error: AttributeError: module 'bcrypt' has no attribute '__about__'
+python-jose[cryptography]
+typing
+python-multipart
+psycopg2 #for postgres
+asyncpg #for postgres
+alembic
+python-dotenv #for env variables;-> from dotenv import load_dotenv, import os
+jinja2

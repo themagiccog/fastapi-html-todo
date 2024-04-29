@@ -66,7 +66,7 @@ fastapi-html-todo
 3. **Start the FastAPI server:**
 
   ```bash
-  uvicorn backend.main:app --reload
+  uvicorn backend.main:app --port 8008  --reload
   ```
 This command starts the server with hot reloading enabled.
 

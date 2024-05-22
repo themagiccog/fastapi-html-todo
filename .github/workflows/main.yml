@@ -2,6 +2,11 @@ name: Hello World Workflow
 
 on:
   workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to run the workflow'
+        default: 'test'
+        required: true
 
 jobs:
   hello-world-job:

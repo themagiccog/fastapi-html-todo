@@ -5,12 +5,12 @@ on:
   #   branches: [ 'test' ]
   # pull_request:
   #   branches: [ test ]
-  workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch to run the workflow'
-        default: 'test'
-        required: true
+  # workflow_dispatch:
+  #   inputs:
+  #     branch:
+  #       description: 'Branch to run the workflow'
+  #       default: 'test'
+  #       required: true
 
 jobs:
   hello-world-job:
